@@ -48,6 +48,14 @@ module.exports = {
 				'shouldMatchCase': false
 			}
 		],
+		'vue/order-in-components': [
+			'warn',
+			{
+				'order': [
+					'name', 'props', 'computed', 'data', 'watch', 'LIFECYCLE_HOOKS', 'methods'
+				]
+			}
+		],
 		'array-bracket-spacing': [
 			'warn', 
 			'always'
