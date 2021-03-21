@@ -41,19 +41,24 @@ module.exports = {
 			'warn',
 			'camelCase'
 		],
-		'vue/component-name-in-template-casing': [
-			'error',
-			'PascalCase', 
-			{
-				'registeredComponentsOnly': false
-			}
-		],
 		'vue/match-component-file-name': [
 			'error',
 			{
 				'extensions': [ 'vue' ],
 				'shouldMatchCase': false
 			}
+		],
+		'array-bracket-spacing': [
+			'warn', 
+			'always'
+		],
+		'object-curly-spacing': [
+			'warn', 
+			'always'
+		],
+		'computed-property-spacing': [
+			'warn',
+			'never'
 		],
 		'no-tabs': 0,
 		'quotes': [
