@@ -1,0 +1,3 @@
+src/background.js
+dist/*
+dist_electron/*
